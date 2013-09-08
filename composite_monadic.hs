@@ -74,4 +74,4 @@ False
 -}
 
 main = do
-  putStrLn $ show $ f 100
+  putStrLn $ show $ canReachIn 3 (1, 3) (1, 6)
