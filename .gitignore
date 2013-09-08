@@ -9,3 +9,4 @@ cabal-dev
 
 rpn
 safe_rpn
+composite_monadic
