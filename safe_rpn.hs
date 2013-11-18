@@ -36,7 +36,9 @@ foldingFunction xs numberString = liftM (:xs) (readMaybe numberString)
 -- liftM :: (Monad m) => (a -> b) -> m a -> m b
 -- Functor でいうところの fmap
 
+{-
 main = do
   line <- getLine
   putStrLn $ show $ solveRPN line
   main
+-}
