@@ -73,5 +73,4 @@ True
 False
 -}
 
-main = do
-  putStrLn $ show $ canReachIn 3 (1, 3) (1, 6)
+main = print $ canReachIn 3 (1, 3) (1, 6)

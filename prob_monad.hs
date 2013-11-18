@@ -75,5 +75,4 @@ Prob {getProb = [(False,1 % 40),(False,9 % 40),(False,1 % 40),(False,9 % 40),(Fa
 全部裏になるのは 9%40
 -}
 
-main = do
-  putStrLn $ show flipThree
+main = print flipThree

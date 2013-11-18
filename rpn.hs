@@ -12,5 +12,5 @@ foldingFunction xs numberString = read numberString:xs
 
 main = do
   line <- getLine
-  putStrLn $ show $ solveRPN line
+  print $ solveRPN line
   main
